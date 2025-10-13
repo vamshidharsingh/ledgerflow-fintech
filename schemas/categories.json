@@ -1,0 +1,20 @@
+{
+  "name": "categories",
+  "description": "Budgeting classifications for manual expense records.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "income",
+        "expense"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": [
+    "name"
+  ]
+}
