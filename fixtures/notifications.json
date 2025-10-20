@@ -1,0 +1,8 @@
+[
+  {
+    "id": "note-1",
+    "customer_id": "customer-1",
+    "message": "Welcome to the local finance sandbox.",
+    "status": "unread"
+  }
+]
