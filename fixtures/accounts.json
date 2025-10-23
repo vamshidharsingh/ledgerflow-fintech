@@ -1,0 +1,18 @@
+[
+  {
+    "id": "account-1",
+    "customer_id": "customer-1",
+    "name": "Daily wallet",
+    "currency": "USD",
+    "balance_cents": 250000,
+    "status": "active"
+  },
+  {
+    "id": "account-2",
+    "customer_id": "customer-1",
+    "name": "Savings wallet",
+    "currency": "USD",
+    "balance_cents": 100000,
+    "status": "active"
+  }
+]
