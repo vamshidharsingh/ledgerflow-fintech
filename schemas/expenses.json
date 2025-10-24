@@ -1,0 +1,27 @@
+{
+  "name": "expenses",
+  "description": "Manual spend annotations separate from the banking ledger.",
+  "fields": {
+    "account_id": {
+      "type": "string",
+      "ref": "accounts"
+    },
+    "category_id": {
+      "type": "string",
+      "ref": "categories"
+    },
+    "amount_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "description": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
