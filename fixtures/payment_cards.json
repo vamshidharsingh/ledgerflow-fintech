@@ -1,0 +1,9 @@
+[
+  {
+    "id": "card-1",
+    "account_id": "account-1",
+    "label": "Demo debit card",
+    "last_four": "4242",
+    "status": "active"
+  }
+]
