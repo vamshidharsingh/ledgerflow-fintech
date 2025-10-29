@@ -1,0 +1,9 @@
+[
+  {
+    "id": "beneficiary-1",
+    "customer_id": "customer-1",
+    "name": "Demo landlord",
+    "bank_name": "Example Bank",
+    "last_four": "1034"
+  }
+]
