@@ -1,0 +1,9 @@
+[
+  {
+    "id": "batch-1",
+    "name": "Opening wallet snapshot",
+    "expected_cents": 350000,
+    "observed_cents": 350000,
+    "status": "reviewed"
+  }
+]
