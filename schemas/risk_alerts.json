@@ -1,0 +1,30 @@
+{
+  "name": "risk_alerts",
+  "description": "Human-entered review cases; no machine-learning fraud claims.",
+  "fields": {
+    "account_id": {
+      "type": "string",
+      "ref": "accounts"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "resolved"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
