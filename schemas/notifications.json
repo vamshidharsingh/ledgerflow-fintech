@@ -1,0 +1,22 @@
+{
+  "name": "notifications",
+  "description": "Local inbox records, never actual email or SMS.",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "ref": "customers"
+    },
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "unread",
+        "read"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
