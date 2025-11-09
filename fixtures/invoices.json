@@ -1,0 +1,10 @@
+[
+  {
+    "id": "invoice-1",
+    "customer_id": "customer-1",
+    "number": "INV-1001",
+    "amount_cents": 12000,
+    "status": "sent",
+    "due_date": "2026-11-01"
+  }
+]
