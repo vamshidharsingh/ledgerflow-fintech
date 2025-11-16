@@ -1,0 +1,23 @@
+{
+  "name": "risk_rules",
+  "description": "Configurable risk thresholds for manual analyst review.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "threshold_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
