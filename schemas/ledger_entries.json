@@ -1,0 +1,22 @@
+{
+  "name": "ledger_entries",
+  "description": "Signed double-entry records created atomically with a transfer.",
+  "fields": {
+    "account_id": {
+      "type": "string",
+      "ref": "accounts"
+    },
+    "transfer_id": {
+      "type": "string",
+      "ref": "transfers"
+    },
+    "signed_cents": {
+      "type": "integer"
+    },
+    "memo": {
+      "type": "string"
+    }
+  },
+  "writable": false,
+  "unique": []
+}
