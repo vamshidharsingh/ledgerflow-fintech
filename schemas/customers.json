@@ -1,0 +1,20 @@
+{
+  "name": "customers",
+  "description": "Synthetic customer profiles for a local banking simulation.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "country": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": [
+    "email"
+  ]
+}
