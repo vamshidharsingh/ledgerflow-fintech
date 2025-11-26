@@ -1,0 +1,26 @@
+{
+  "name": "reconciliation_batches",
+  "description": "Manual reconciliation checkpoints for imported statements.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "expected_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "observed_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "reviewed"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
