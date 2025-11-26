@@ -1,0 +1,27 @@
+{
+  "name": "payment_cards",
+  "description": "Masked card reference metadata. Full card numbers are never stored.",
+  "fields": {
+    "account_id": {
+      "type": "string",
+      "ref": "accounts"
+    },
+    "label": {
+      "type": "string"
+    },
+    "last_four": {
+      "type": "string",
+      "minLength": 4,
+      "maxLength": 4
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "locked"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
