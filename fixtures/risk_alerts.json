@@ -1,0 +1,9 @@
+[
+  {
+    "id": "alert-1",
+    "account_id": "account-1",
+    "reason": "Synthetic example review",
+    "severity": "low",
+    "status": "open"
+  }
+]
