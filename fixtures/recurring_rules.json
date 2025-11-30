@@ -1,0 +1,9 @@
+[
+  {
+    "id": "rule-1",
+    "account_id": "account-1",
+    "name": "Rent reminder",
+    "amount_cents": 90000,
+    "frequency": "monthly"
+  }
+]
