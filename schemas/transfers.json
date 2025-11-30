@@ -1,0 +1,31 @@
+{
+  "name": "transfers",
+  "description": "Idempotent wallet-to-wallet movements with a request fingerprint.",
+  "fields": {
+    "source_id": {
+      "type": "string",
+      "ref": "accounts"
+    },
+    "target_id": {
+      "type": "string",
+      "ref": "accounts"
+    },
+    "amount_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "key": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "completed"
+      ]
+    }
+  },
+  "writable": false,
+  "unique": [
+    "key"
+  ]
+}
