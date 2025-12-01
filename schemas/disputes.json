@@ -1,0 +1,26 @@
+{
+  "name": "disputes",
+  "description": "Support dispute tracking without payment-network integration.",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "ref": "customers"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "amount_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "closed"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
