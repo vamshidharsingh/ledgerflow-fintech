@@ -1,0 +1,8 @@
+[
+  {
+    "id": "risk-rule-1",
+    "name": "Large transfer",
+    "threshold_cents": 100000,
+    "severity": "high"
+  }
+]
