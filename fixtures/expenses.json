@@ -1,0 +1,10 @@
+[
+  {
+    "id": "expense-1",
+    "account_id": "account-1",
+    "category_id": "category-1",
+    "amount_cents": 6500,
+    "description": "Weekly groceries",
+    "date": "2026-10-01"
+  }
+]
