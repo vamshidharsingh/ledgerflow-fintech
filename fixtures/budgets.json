@@ -1,0 +1,9 @@
+[
+  {
+    "id": "budget-1",
+    "customer_id": "customer-1",
+    "category_id": "category-1",
+    "limit_cents": 40000,
+    "month": "2026-10"
+  }
+]
