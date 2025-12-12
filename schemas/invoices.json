@@ -1,0 +1,33 @@
+{
+  "name": "invoices",
+  "description": "Manual payable and receivable records.",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "ref": "customers"
+    },
+    "number": {
+      "type": "string"
+    },
+    "amount_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "sent",
+        "paid"
+      ]
+    },
+    "due_date": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "writable": true,
+  "unique": [
+    "number"
+  ]
+}
