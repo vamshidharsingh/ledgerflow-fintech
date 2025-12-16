@@ -1,0 +1,23 @@
+{
+  "name": "savings_goals",
+  "description": "Manual goal progress trackers; they do not move money.",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "ref": "customers"
+    },
+    "name": {
+      "type": "string"
+    },
+    "target_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "saved_cents": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "writable": true,
+  "unique": []
+}
