@@ -1,0 +1,808 @@
+{
+  "project": "ledgerflow-fintech",
+  "profile": "https://github.com/vamshidharsingh",
+  "source_file_count": 160,
+  "definition": "Regular delivered files, including config and documentation; excludes runtime output, Git metadata and Python caches.",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "1b721c7a4917fd5803bfc801b4b2e123de3a24d35731d3a4d2d3bc2a64ef5c3e",
+      "bytes": 223
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "6fd79c5ee358f6dded094c3ad3f58b69fb666b8fcae6bd2e8c960faa905cd1c2",
+      "bytes": 510
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha256": "6081a595acd104efb62e384d62d17746a681df09c20882f7ab78438859e7c142",
+      "bytes": 492
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "53cc45d29b49b735bde9a54c58abf940528bcb946e3b71c77244256e27125d59",
+      "bytes": 696
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "af62e7396b338d97e56f13a6ebeb47d663a103bf098704154af4013c2c2cdcdd",
+      "bytes": 94
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "e21db5eb2fb2729a28198b9b724fc279ad986a926700b16d8840cfa35698c3dc",
+      "bytes": 272
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "72380798af61d6131287b0dd3c8dc5345535df641002fece3a02d7ef109c5f8e",
+      "bytes": 1069
+    },
+    {
+      "path": "Makefile",
+      "sha256": "cedba7854e3cb3a3c50f9adcf0f88c72e55c854ed7fe816a448e1abc2212b091",
+      "bytes": 216
+    },
+    {
+      "path": "PROJECT_MANIFEST.json",
+      "sha256": null,
+      "bytes": null
+    },
+    {
+      "path": "README.md",
+      "sha256": "abe2ef535adf1f1e00f48df0d94b8e33411fb1736a9d0b2f3b3e84a8da89e7f7",
+      "bytes": 5131
+    },
+    {
+      "path": "app/__init__.py",
+      "sha256": "0cabe8d86279ccfa01372a0b910a6e0189120cad82b1dc8a8ec5c15a4ee0e677",
+      "bytes": 85
+    },
+    {
+      "path": "app/__main__.py",
+      "sha256": "88ca6934d6cb33e1959d687032aa6a42813b1b5c7d60ef5825a7a4982bc86a04",
+      "bytes": 1213
+    },
+    {
+      "path": "app/audit.py",
+      "sha256": "5b34674b3b1ed0d724de37ee07ce5f5714c237acb0e1ff4deb1cfa4d10130a46",
+      "bytes": 421
+    },
+    {
+      "path": "app/auth.py",
+      "sha256": "3f82f89772c1fe1b9195e46f5bc6527a6a172bd1949529d0227a40e844b79843",
+      "bytes": 265
+    },
+    {
+      "path": "app/config.py",
+      "sha256": "78ce2658c7baeb176609e63add0f58f474fff9fe99e39648302b7285e70b6baf",
+      "bytes": 278
+    },
+    {
+      "path": "app/db.py",
+      "sha256": "873f60a5caddec54575e6e2ab9cc9fb92276ff9ea7b5cf3b8d2730994f28a1b1",
+      "bytes": 1332
+    },
+    {
+      "path": "app/errors.py",
+      "sha256": "1a9275eaa721e25e151d9ed8cbae514ecbcb25a48666f6868e59c259b0b818e6",
+      "bytes": 225
+    },
+    {
+      "path": "app/export.py",
+      "sha256": "854deb8dcd12bd052cdca7dc1aa8f9a43ffc9c001cf1bab25a5beb9b106886fb",
+      "bytes": 664
+    },
+    {
+      "path": "app/http.py",
+      "sha256": "f61a58e6a2ea33c17825c5d37a0a16e81246a56b0c22b6eb53806a30bbb4beaf",
+      "bytes": 6094
+    },
+    {
+      "path": "app/pagination.py",
+      "sha256": "598a487960a2716e5dbf039457176ad142fb58a4f237d3ea05bd264a07cdef7b",
+      "bytes": 367
+    },
+    {
+      "path": "app/project.py",
+      "sha256": "4d1731f0ee7f0a5eaad54a09ed7c14b8c3dd8a671b2ed5935fa5f6d8e1555dd5",
+      "bytes": 1526
+    },
+    {
+      "path": "app/registry.py",
+      "sha256": "c7dab83e4f7fb5761081d85fec0c651f0179a53b131aaae7a0e7cee9bda7f6bb",
+      "bytes": 207
+    },
+    {
+      "path": "app/reports.py",
+      "sha256": "2a5a254c732e4dc17a5a5249786bd2b30c4e3a1a7e1a08dda0a8f0398b9bbe41",
+      "bytes": 1203
+    },
+    {
+      "path": "app/repositories/accounts.py",
+      "sha256": "7de0afe5c5c9f68c04aa338169fd9fde3337ca36c4eaa0da658ef26bccb406ae",
+      "bytes": 519
+    },
+    {
+      "path": "app/repositories/beneficiaries.py",
+      "sha256": "9b18f2c528ba61cb0245be0861e0a800d130fa6dde680f806632adff986cc0a7",
+      "bytes": 497
+    },
+    {
+      "path": "app/repositories/budgets.py",
+      "sha256": "ea2e2cbfcf2a82b72c8b1a4b876caf10ca854475345af7c8d521909698f724bf",
+      "bytes": 491
+    },
+    {
+      "path": "app/repositories/categories.py",
+      "sha256": "b044b7bea5a0256999b93270226f51e5259c2fd37d577ec3c24f04cc4fa11039",
+      "bytes": 472
+    },
+    {
+      "path": "app/repositories/customers.py",
+      "sha256": "ef72361018363fc7d5fe482f51edcf7bef60d1b6d03ddf882ee6d8f6eb7fcebe",
+      "bytes": 477
+    },
+    {
+      "path": "app/repositories/deposits.py",
+      "sha256": "54b428d988ed42c17df9b689b7f27bf810305b76a4cc10e95ca6f3ba88c15733",
+      "bytes": 485
+    },
+    {
+      "path": "app/repositories/disputes.py",
+      "sha256": "5bd6e64038b32ac86bf919776c353ccadb19bf813e99e41de69f31b93eb2eca8",
+      "bytes": 492
+    },
+    {
+      "path": "app/repositories/exchange_rates.py",
+      "sha256": "af79b640f1b593a29cb42087581c949bbd0f48467158552b41cf10eed90fd1cb",
+      "bytes": 508
+    },
+    {
+      "path": "app/repositories/expenses.py",
+      "sha256": "53ec07d7a13e2a5ccc57c7823f7cedf436f022bc8e32abdbda02a9109b8f15b1",
+      "bytes": 487
+    },
+    {
+      "path": "app/repositories/invoices.py",
+      "sha256": "4c6be4cb951398962b7266a365ba9761979d779ca48dbf53b475d4849cf563d8",
+      "bytes": 469
+    },
+    {
+      "path": "app/repositories/ledger_entries.py",
+      "sha256": "24ef6901809edb305bc9022e642063111f8807cb2e3fad1db2432bf18e3947ce",
+      "bytes": 498
+    },
+    {
+      "path": "app/repositories/merchants.py",
+      "sha256": "411f3cc950a5c711cef3555d3e81173107a50a8f072d9add2b83648e221b4da5",
+      "bytes": 476
+    },
+    {
+      "path": "app/repositories/notifications.py",
+      "sha256": "3612670c5f1e594c60f4dc17ff047922ad335bbd5bad560fceae88cc1a6ec4e7",
+      "bytes": 483
+    },
+    {
+      "path": "app/repositories/payment_cards.py",
+      "sha256": "c7b1ad40e74094e6fa2b143a5972622d626edfe0b338cb26a2878b243708a359",
+      "bytes": 501
+    },
+    {
+      "path": "app/repositories/reconciliation_batches.py",
+      "sha256": "45c0803b9d73d1971ece02274aee6560098e5e7eaa5897484fa948142dde2d4a",
+      "bytes": 489
+    },
+    {
+      "path": "app/repositories/recurring_rules.py",
+      "sha256": "d8c454e94fce661b9f1abbd2e32bff8fd135b3e9818d6c154542e390171196c8",
+      "bytes": 506
+    },
+    {
+      "path": "app/repositories/risk_alerts.py",
+      "sha256": "98cc6d1dd27898a0fa033890e46f5fa8adf197c96529a0d39e7c6782b6d654c8",
+      "bytes": 493
+    },
+    {
+      "path": "app/repositories/risk_rules.py",
+      "sha256": "8ced413d157245d4da6957661d1f03be895c04220d82c77f880e19141b2b81ce",
+      "bytes": 474
+    },
+    {
+      "path": "app/repositories/savings_goals.py",
+      "sha256": "49a5d83492c1ac3ee8ed099f82951ecbaf76c054976b76e17989821a64f931df",
+      "bytes": 490
+    },
+    {
+      "path": "app/repositories/transfers.py",
+      "sha256": "7bcf2bb0b2b4aecb82c2ddacef2dcafefaa3e57c48f92a8172ba6782fc5a9fdd",
+      "bytes": 493
+    },
+    {
+      "path": "app/repository.py",
+      "sha256": "993e8c568465097c4bdc30fdaf1e9b348000fc30253a3e3324c83fedb2916dfa",
+      "bytes": 4124
+    },
+    {
+      "path": "app/schema.py",
+      "sha256": "7a86885d94a8341fa5601392135ffefd53fec6e26fda3be130ae18211aa790ad",
+      "bytes": 381
+    },
+    {
+      "path": "app/seed.py",
+      "sha256": "8711f7072af1cc97e88ea2cc9b9b85bf83d8aafcf6e892a876e843158b2d4870",
+      "bytes": 492
+    },
+    {
+      "path": "app/static.py",
+      "sha256": "20d55f39ff73a93434928579ab4002c417acfc3032a38e971ba31c38cbfb24c2",
+      "bytes": 574
+    },
+    {
+      "path": "app/validate.py",
+      "sha256": "4e3fdb921b4aed2a2f2763f1ea22698e744196f25f8c9128a66759a484b92ece",
+      "bytes": 2247
+    },
+    {
+      "path": "app/workflows.py",
+      "sha256": "4bd3e4264b3ac76cb1a5c5ed0ab10fce92aeb0d4597e48503bdb2d6c3c01cf2b",
+      "bytes": 4686
+    },
+    {
+      "path": "compose.yaml",
+      "sha256": "59f9e5f1fa748c6fff70dde9f566ba809cfe84f5ad6e8c6cb14586ec98286817",
+      "bytes": 301
+    },
+    {
+      "path": "docs/api.md",
+      "sha256": "cabf47e62d8d1fc41dfe6965fd312de21d60bde5ed3683b0875e72a9cb3700ac",
+      "bytes": 3108
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "cd2204305d5f3fab0e90965263267eaf395811030acb462755a88338c570623d",
+      "bytes": 3022
+    },
+    {
+      "path": "docs/resources/accounts.md",
+      "sha256": "4a9e9c2f2305d7297247638bdeb8e78de91e517ed801390b04442e4441728d6c",
+      "bytes": 974
+    },
+    {
+      "path": "docs/resources/beneficiaries.md",
+      "sha256": "b659a9ca84f0b7cf28030261331e06914850e534f05387a8d98d9d9089adc028",
+      "bytes": 951
+    },
+    {
+      "path": "docs/resources/budgets.md",
+      "sha256": "4bd35e50c88f5c7ad8c2f275082771dce006be3ca40e1f586b051d51ef450238",
+      "bytes": 950
+    },
+    {
+      "path": "docs/resources/categories.md",
+      "sha256": "f1d634bd96b2d45f4a430d888bececb28be7d508c312d6c2c2be3d148eba1eb4",
+      "bytes": 842
+    },
+    {
+      "path": "docs/resources/customers.md",
+      "sha256": "19f7e33c8f2db71f32c6d1dc7f014cdffa031f4df9e7ff386f5bba5818d13d4f",
+      "bytes": 870
+    },
+    {
+      "path": "docs/resources/deposits.md",
+      "sha256": "3bad2782e2021e4cef04c80bf5b4f32a1399979246b802b2f6fcbc2055f368d0",
+      "bytes": 875
+    },
+    {
+      "path": "docs/resources/disputes.md",
+      "sha256": "d7dafffd7b3ff6eaf5fd550b579610c7eb51f17dc1993e53fddc5291bee9062f",
+      "bytes": 939
+    },
+    {
+      "path": "docs/resources/exchange_rates.md",
+      "sha256": "cc05060889b252b49ba0a91ced027e86b54dd125ac840eb7b5e4f0ef94040a71",
+      "bytes": 959
+    },
+    {
+      "path": "docs/resources/expenses.md",
+      "sha256": "53fcb1534f84083d3923f35919491ea081a7903b1919e3934f8c9ec0ef00906a",
+      "bytes": 982
+    },
+    {
+      "path": "docs/resources/invoices.md",
+      "sha256": "3e0ea26264467260b31ce073f45d3abff7038f049cfa826c198bdabce3a330ce",
+      "bytes": 959
+    },
+    {
+      "path": "docs/resources/ledger_entries.md",
+      "sha256": "6a4d5e1d61cb41d19ade3150ab07870bcbffa2469fdd6b83716c62488b917888",
+      "bytes": 944
+    },
+    {
+      "path": "docs/resources/merchants.md",
+      "sha256": "0c13d6e12bb9005c50cc51186ede073e585016a61af7b9557b0d8c19d7ca655c",
+      "bytes": 868
+    },
+    {
+      "path": "docs/resources/notifications.md",
+      "sha256": "9208b750fddc077d4e952600467aefafbddb45515e5838bbb212cd90d4350b09",
+      "bytes": 905
+    },
+    {
+      "path": "docs/resources/payment_cards.md",
+      "sha256": "123e4aa86e0e44164e1a91c207be97fecd0909c524f452b34c8496f73439be82",
+      "bytes": 958
+    },
+    {
+      "path": "docs/resources/reconciliation_batches.md",
+      "sha256": "20753a194bc5e4fec99adcb58c490e8fb6cd83cfd2b62feb01991535489a34a5",
+      "bytes": 977
+    },
+    {
+      "path": "docs/resources/recurring_rules.md",
+      "sha256": "24fda747fba4a48007a2874138d1a252d59ca31c255a9618a1cfe758d8d742e1",
+      "bytes": 976
+    },
+    {
+      "path": "docs/resources/risk_alerts.md",
+      "sha256": "117ca620b9a8cb95bfccbbd20964aeac808399a0d9d74527fd21a99ba8d8f26b",
+      "bytes": 953
+    },
+    {
+      "path": "docs/resources/risk_rules.md",
+      "sha256": "66ca23eb0209ad951568d807c969ab919b38c42106e64fb07a33b57c1ab80cfa",
+      "bytes": 887
+    },
+    {
+      "path": "docs/resources/savings_goals.md",
+      "sha256": "de61ba40dadcc63d63a713776cedfb95f6e1303097d49467af10ac723de73098",
+      "bytes": 951
+    },
+    {
+      "path": "docs/resources/transfers.md",
+      "sha256": "7581f8fc644882f57c60125312881548981ee0086c7bd58e1b5169c9de4867a2",
+      "bytes": 959
+    },
+    {
+      "path": "docs/security.md",
+      "sha256": "cd7f673c1a537cfa7a462294968ea8e044f883ab7cd1e4bc8d58ad72326d2105",
+      "bytes": 2976
+    },
+    {
+      "path": "docs/setup.md",
+      "sha256": "20f0e968aeb4276fbd106908e30f2285b30b5635e17e68967370d6681045a908",
+      "bytes": 2427
+    },
+    {
+      "path": "fixtures/accounts.json",
+      "sha256": "8366cdec211c044cdf73695f4931e90b28953c5d86359abf2bcdc9f71b3f2171",
+      "bytes": 341
+    },
+    {
+      "path": "fixtures/beneficiaries.json",
+      "sha256": "5b9fe1a40b9dfe9bd8b82be7a589e6cb47bcad8622475e026dbc0e37b11e6986",
+      "bytes": 158
+    },
+    {
+      "path": "fixtures/budgets.json",
+      "sha256": "28f06d1d852cdb78cc0e81779e81db431c0b4540a4a5e55db973dd49315ca0a9",
+      "bytes": 149
+    },
+    {
+      "path": "fixtures/categories.json",
+      "sha256": "c768c9564098fdd5e44a9be3207fcd7a5b604e7a8a217d983930a4546b4e435e",
+      "bytes": 83
+    },
+    {
+      "path": "fixtures/customers.json",
+      "sha256": "8b57b0fbb3eff0ac98cb7871f0e6e5acb3bd35996c9f024d6fa142a4fbec995d",
+      "bytes": 117
+    },
+    {
+      "path": "fixtures/deposits.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "fixtures/disputes.json",
+      "sha256": "85878b952f8a7904234afe1385c159d85bf7ee9a31a001706a10f8d945e2e5df",
+      "bytes": 156
+    },
+    {
+      "path": "fixtures/exchange_rates.json",
+      "sha256": "44f25a0484bcb0f87bc371847834bf558baa7ba447fe2ef4ce9258c2c0e90149",
+      "bytes": 126
+    },
+    {
+      "path": "fixtures/expenses.json",
+      "sha256": "d7006c11922f213dcc1d52c0b0d42f498b99cb6125a1b2af5baee11bb59d980f",
+      "bytes": 189
+    },
+    {
+      "path": "fixtures/invoices.json",
+      "sha256": "e655b200779c7354a06ea56388f4edc0174afa156c558a526cb3b2a49dac13bb",
+      "bytes": 172
+    },
+    {
+      "path": "fixtures/ledger_entries.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "fixtures/merchants.json",
+      "sha256": "e06228a8953807c9d6b5fa334cb6835062a259242b8477c82ba23e9d8f5b488b",
+      "bytes": 110
+    },
+    {
+      "path": "fixtures/notifications.json",
+      "sha256": "2356b5caa114682a1c7c6548b20f46ea97993f741f121b6482dc74c64df538d6",
+      "bytes": 144
+    },
+    {
+      "path": "fixtures/payment_cards.json",
+      "sha256": "c2f720c6aa91b7c4a397f001db0ccc43abca985d6dd0fe0a2bc376acb9664b34",
+      "bytes": 143
+    },
+    {
+      "path": "fixtures/reconciliation_batches.json",
+      "sha256": "f5d79a7e227ea52660cd55503335955cacb780007ccee1337cb9a1a458e7e8ac",
+      "bytes": 157
+    },
+    {
+      "path": "fixtures/recurring_rules.json",
+      "sha256": "c43c2781ad200cf441fa9c0774835ae936ad4cde4bf511998fd32d155b91d3e6",
+      "bytes": 146
+    },
+    {
+      "path": "fixtures/risk_alerts.json",
+      "sha256": "66e85e711c98735912800e1d825c60f507d93c154054f813dae2430c5d336308",
+      "bytes": 150
+    },
+    {
+      "path": "fixtures/risk_rules.json",
+      "sha256": "28209155ac6f2f0841d6b7c634d187fcd7e474e5d1ca92c9690d151298f2d1ea",
+      "bytes": 121
+    },
+    {
+      "path": "fixtures/savings_goals.json",
+      "sha256": "2929e3b0b7bab4bc52281255e12871f4008f60af4f88c5a8391fe0a24e1f3153",
+      "bytes": 152
+    },
+    {
+      "path": "fixtures/transfers.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "456b73882650f02cd1f9f3c1293346f21ad36a61641ed17820a23229c775ba3b",
+      "bytes": 506
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "2d0ac93d749230f910dbf12ec7495987ed6f051908e8a899c37514dd1f7bfa2e",
+      "bytes": 131
+    },
+    {
+      "path": "schemas/accounts.json",
+      "sha256": "04f99c38141bbee9c6818aeb17b6c70e6ba5694f4dcfb7d25ed8be093287cfc1",
+      "bytes": 607
+    },
+    {
+      "path": "schemas/beneficiaries.json",
+      "sha256": "50146d5c70c4f22a88985242f33666d7847218a3e39ca3ca253902a41179c541",
+      "bytes": 429
+    },
+    {
+      "path": "schemas/budgets.json",
+      "sha256": "345ce8ead15b02b487fdafa9fab0af68226a209d7e92369578fd93c42396fcf2",
+      "bytes": 468
+    },
+    {
+      "path": "schemas/categories.json",
+      "sha256": "43e0f46a0ce9d4a5617f22e52ef1f05a16427f9ce67d446d68ead12386de687e",
+      "bytes": 318
+    },
+    {
+      "path": "schemas/customers.json",
+      "sha256": "81fff97c2fbc22dbe76b9518047f5ca4c19377e928375473cc64e39d03df54cf",
+      "bytes": 336
+    },
+    {
+      "path": "schemas/deposits.json",
+      "sha256": "531f3feddd0781bef2a1ffcd6df1eeef72dcc652df1f9841f57a59c48824bd39",
+      "bytes": 373
+    },
+    {
+      "path": "schemas/disputes.json",
+      "sha256": "4d7fb430e35e25396bbd3040d28741f9ea9b56b5303e0e7b3ef98e1c551c6611",
+      "bytes": 462
+    },
+    {
+      "path": "schemas/exchange_rates.json",
+      "sha256": "06f9ebed32f88767b0fc1048dabad0db73b54c1e58408e31b4216b56b424c0c4",
+      "bytes": 563
+    },
+    {
+      "path": "schemas/expenses.json",
+      "sha256": "2698d9d3afb9ddc9ce474ee51b9a6d3771d88020913240bfdcb0782485084120",
+      "bytes": 503
+    },
+    {
+      "path": "schemas/invoices.json",
+      "sha256": "a63e300ad885a20ca7afbbd40c67f635ff22336c32b648ec00f3cf565e8895fd",
+      "bytes": 541
+    },
+    {
+      "path": "schemas/ledger_entries.json",
+      "sha256": "b4882cae74862a18f7550cd8845fa60ddaa53dd680a7c65a4bd94110330832a8",
+      "bytes": 419
+    },
+    {
+      "path": "schemas/merchants.json",
+      "sha256": "3f54ae838764915cf253a45e1aaf30ad601fe7dc6d5d9b6f0730fe0ed2139b9c",
+      "bytes": 298
+    },
+    {
+      "path": "schemas/notifications.json",
+      "sha256": "bf8bf611a736cebb36215dcd8c91d86acd7c452096be0359830ae1ece1185421",
+      "bytes": 380
+    },
+    {
+      "path": "schemas/payment_cards.json",
+      "sha256": "9a4c922db550d0cb38a66606ca5dab68de3e70d0b88e7db0036513068a4604ec",
+      "bytes": 491
+    },
+    {
+      "path": "schemas/reconciliation_batches.json",
+      "sha256": "bd173a3b1e3def804526bc4315ac2bc6dcafea88765858fb09d06cc11013bdc0",
+      "bytes": 475
+    },
+    {
+      "path": "schemas/recurring_rules.json",
+      "sha256": "46507c5e7575fea9fb421d0f2a5760bfa6a2d86768bda106e98559768822bddd",
+      "bytes": 479
+    },
+    {
+      "path": "schemas/risk_alerts.json",
+      "sha256": "e1e4f3c0a62fef370480eb4a9754c57ab7e8a8f08b818399e7117ed3cce0b462",
+      "bytes": 512
+    },
+    {
+      "path": "schemas/risk_rules.json",
+      "sha256": "fe8b96aed4654aca5af24e54b0c712c2fd9fbbedc526a41c2fb54949413be2c4",
+      "bytes": 398
+    },
+    {
+      "path": "schemas/savings_goals.json",
+      "sha256": "e7ecff7d09b6e89597397cf466f50196250f5c2361fa86f2085696b75cf3eb00",
+      "bytes": 425
+    },
+    {
+      "path": "schemas/transfers.json",
+      "sha256": "a1af61aca9caaf9a778c86b5c52a54192977dc38c39f87f661fb9af66326f859",
+      "bytes": 535
+    },
+    {
+      "path": "scripts/backup.py",
+      "sha256": "76bac0dfefb68ad2f414645c00e72e25ac6e69824b5f819016e41e443fa47c1b",
+      "bytes": 964
+    },
+    {
+      "path": "scripts/export_data.py",
+      "sha256": "9ff00e1402033943cb383af85a9662550cb82e7f5e2007bf6319baa20be4d61e",
+      "bytes": 656
+    },
+    {
+      "path": "scripts/init_db.py",
+      "sha256": "4c4cb2bf6d3ca5667f7878365ffb555369e619851f015c61174fdd5a004bd8b1",
+      "bytes": 413
+    },
+    {
+      "path": "scripts/smoke_test.py",
+      "sha256": "0408f54e5e6ac5363cb1981604391b42e8cd5048c5efbb8bb1eb13a1c5194afd",
+      "bytes": 1458
+    },
+    {
+      "path": "scripts/verify_files.py",
+      "sha256": "bca1e370e10daadc294df21cc12f06fb26896395788943ac8d7716010cae9fde",
+      "bytes": 1077
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "df7f1d44357fdef3f9fe616d538d6b00fa91f7a39d9b9f4a15de70cacf2a71d4",
+      "bytes": 65
+    },
+    {
+      "path": "tests/helpers.py",
+      "sha256": "1da5c4f6ca17b94979adf761cde5d851506692a5d91c6fdbc898dbb01cc080f3",
+      "bytes": 2425
+    },
+    {
+      "path": "tests/test_accounts.py",
+      "sha256": "d9cbb52ad439be16275484aea323a8511431fa8ea185f28379039da63990e68c",
+      "bytes": 1875
+    },
+    {
+      "path": "tests/test_auth.py",
+      "sha256": "11fceed0042008201513abf4f101dd57e0d3d2961623fd07a72a26132dec0198",
+      "bytes": 493
+    },
+    {
+      "path": "tests/test_beneficiaries.py",
+      "sha256": "27f0fd8af08d5935b2b338686a373fb4e3b6f89b348c07c7e509761d43ba9664",
+      "bytes": 1885
+    },
+    {
+      "path": "tests/test_budgets.py",
+      "sha256": "e2e4b8da18666984529e5f3764fd3ad5bddf48b95f1ff73a5758e15fc3626520",
+      "bytes": 1873
+    },
+    {
+      "path": "tests/test_categories.py",
+      "sha256": "64e098683346fc29d59c9e5d92f63bb4f73002c0c9e8c5afacd108bdd96b0508",
+      "bytes": 1837
+    },
+    {
+      "path": "tests/test_concurrency.py",
+      "sha256": "efea216112231cea10f19baf949cb1ae7415ce1281f3d8fc07be274267f9a705",
+      "bytes": 1374
+    },
+    {
+      "path": "tests/test_customers.py",
+      "sha256": "247de0a631f90c1d4fe8a5b7c13efb29409913637628def330eb1274508acc61",
+      "bytes": 1835
+    },
+    {
+      "path": "tests/test_deposits.py",
+      "sha256": "ce231d2366e89dbc6a039ca773451e37137437ec555170cf98e9066b5f5af660",
+      "bytes": 1869
+    },
+    {
+      "path": "tests/test_disputes.py",
+      "sha256": "fa0a46da206a2c757a971dc25e4dc19f1400eb100af9f932226f8f33a52bb9a3",
+      "bytes": 1875
+    },
+    {
+      "path": "tests/test_exchange_rates.py",
+      "sha256": "863a43e0b04aaec0c58a8f6c7d5ad4b4dded2d5ab7e0d7eeee2c4b272148e596",
+      "bytes": 1845
+    },
+    {
+      "path": "tests/test_expenses.py",
+      "sha256": "20f66555873e733b9c6547be6d38289fd6b882aa648d343ef38165bd258fa665",
+      "bytes": 1869
+    },
+    {
+      "path": "tests/test_export.py",
+      "sha256": "3e5bb343f234159d5460f71b01a07f072ee8205d98034f4ae9a8d8e34b2e65f9",
+      "bytes": 1314
+    },
+    {
+      "path": "tests/test_http.py",
+      "sha256": "6d13828238709f7807ccd9e0b5f02da28d507edb4dcf3089caa7ad21dcf62bb4",
+      "bytes": 3285
+    },
+    {
+      "path": "tests/test_invoices.py",
+      "sha256": "61785a3be1a258d289ca0464e4d12a731717ca11a8473422855b279f442a798a",
+      "bytes": 1875
+    },
+    {
+      "path": "tests/test_ledger_entries.py",
+      "sha256": "2ffab5a3f05c540b3dd5c6d3a6006bf91d073d9391e1f18c0f754f2cc33d165a",
+      "bytes": 1881
+    },
+    {
+      "path": "tests/test_merchants.py",
+      "sha256": "3fa589b882d2945085d73a564347497ae4aa27a4bd4637b71c1c830e99520f03",
+      "bytes": 1835
+    },
+    {
+      "path": "tests/test_notifications.py",
+      "sha256": "6ee98d06e75165b93e1a056805ac029376fc4d69e41aa892bfb661a26e208677",
+      "bytes": 1885
+    },
+    {
+      "path": "tests/test_payment_cards.py",
+      "sha256": "d89dd5521c2e8fed72c2ca4c39be3c0546f2866c006c4439de6cdd884d0e4fed",
+      "bytes": 1879
+    },
+    {
+      "path": "tests/test_reconciliation_batches.py",
+      "sha256": "47cf28abc07b914a8dba26e9518b0fa11c06104d2ee33f4d0fa7540cfd4d1494",
+      "bytes": 1861
+    },
+    {
+      "path": "tests/test_recurring_rules.py",
+      "sha256": "296a653aebc0f38af745025db814b521f5999d3b5632f34ad74cd09cec25b306",
+      "bytes": 1883
+    },
+    {
+      "path": "tests/test_reports.py",
+      "sha256": "967cffb4946f89b2cb97acde68bd1d6be2b36d2d0bea34863afbf543489dc39b",
+      "bytes": 737
+    },
+    {
+      "path": "tests/test_repository.py",
+      "sha256": "8487501929bfd3faceca3f99fdebb6d5e86d2407dc62ce541fcd9db922ec9923",
+      "bytes": 2365
+    },
+    {
+      "path": "tests/test_risk_alerts.py",
+      "sha256": "5d9c4589f23f1378f9d4f057756367027e06b981693d3e02dcbe0a6114b131bd",
+      "bytes": 1875
+    },
+    {
+      "path": "tests/test_risk_rules.py",
+      "sha256": "705c6857f55495c30cf61e9d7eae941ecf8c84ac17c577017bc5a4358c9e11c7",
+      "bytes": 1837
+    },
+    {
+      "path": "tests/test_savings_goals.py",
+      "sha256": "1fe1e2437d7b5f5eb6bdedaf739f22b769d770f8cbeecf101db1f185388f0e8d",
+      "bytes": 1885
+    },
+    {
+      "path": "tests/test_transfers.py",
+      "sha256": "d1450ae26cc841ff7e7de3b4aa23e7e492f9f0245e7b28603623ad86e8a54a3c",
+      "bytes": 1865
+    },
+    {
+      "path": "tests/test_validation.py",
+      "sha256": "2fb9d4a2c7104c3926b76e7ac5d65dc9738db925be0bffed5ee06ddd396762a3",
+      "bytes": 1263
+    },
+    {
+      "path": "tests/test_workflows.py",
+      "sha256": "01bb26f2e7c3f6264eaea68415b54c6c4e8bdd0bffb1cdd9404cad24528d133d",
+      "bytes": 3717
+    },
+    {
+      "path": "web/api.js",
+      "sha256": "07d72ade15a5c53cc4907b24253e176e41f74e57a4a9b84e66f6fb4897394334",
+      "bytes": 1175
+    },
+    {
+      "path": "web/app.js",
+      "sha256": "d34783a9eea4c67211c56e4ae96f860842ac05a40ed35fcf9a48fb8d01dd2ee6",
+      "bytes": 2639
+    },
+    {
+      "path": "web/dashboard.js",
+      "sha256": "481f8b08222b2b1ffea72dc7e3d117b4a1389000c4bb0a5b78455e9b6612cdb9",
+      "bytes": 2751
+    },
+    {
+      "path": "web/dom.js",
+      "sha256": "203095dd5bb05a4a2d1e8a3ee1fdf3c14f2a8a7e47278a8f2aa01ac38f79b137",
+      "bytes": 920
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "4e2fe3989df51c1f0d64bc9d0e8667524103f44eeaa8ac478058045d5f5cf52a",
+      "bytes": 2235
+    },
+    {
+      "path": "web/resource.js",
+      "sha256": "984480de8e4b0429a500c7fdcf2e76acf8eeb00c2165807ed98243a2d0039b9b",
+      "bytes": 5685
+    },
+    {
+      "path": "web/style.css",
+      "sha256": "44ade518242a33b29da7cb1643e43f370d739003ed1d0b43323c299d23bfb126",
+      "bytes": 6776
+    },
+    {
+      "path": "web/theme.js",
+      "sha256": "33f24cb831170622293774560bf2a8638cc95528a86f31bef4a32a2ec8d82a21",
+      "bytes": 219
+    },
+    {
+      "path": "web/workflow.js",
+      "sha256": "f340965447acb5d1e4153efe03c188180721475bbda0dafcdeb6bae9a487bdf1",
+      "bytes": 1935
+    }
+  ]
+}
