@@ -1,0 +1,9 @@
+[
+  {
+    "id": "dispute-1",
+    "customer_id": "customer-1",
+    "subject": "Demo duplicate receipt",
+    "amount_cents": 1500,
+    "status": "open"
+  }
+]
