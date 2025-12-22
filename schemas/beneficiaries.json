@@ -1,0 +1,23 @@
+{
+  "name": "beneficiaries",
+  "description": "Saved bank destination metadata; no external bank connection.",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "ref": "customers"
+    },
+    "name": {
+      "type": "string"
+    },
+    "bank_name": {
+      "type": "string"
+    },
+    "last_four": {
+      "type": "string",
+      "minLength": 4,
+      "maxLength": 4
+    }
+  },
+  "writable": true,
+  "unique": []
+}
