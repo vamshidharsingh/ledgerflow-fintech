@@ -1,0 +1,17 @@
+{
+  "name": "merchants",
+  "description": "Merchant directory for manual card expense classification.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
