@@ -1,0 +1,9 @@
+[
+  {
+    "id": "fx-1",
+    "base": "USD",
+    "quote": "EUR",
+    "rate_millionths": 920000,
+    "as_of": "2026-10-01"
+  }
+]
