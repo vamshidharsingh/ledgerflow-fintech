@@ -1,0 +1,32 @@
+{
+  "name": "exchange_rates",
+  "description": "Reference-only integer exchange quotes in millionths; transfers remain same-currency.",
+  "fields": {
+    "base": {
+      "type": "string",
+      "enum": [
+        "USD",
+        "EUR",
+        "INR"
+      ]
+    },
+    "quote": {
+      "type": "string",
+      "enum": [
+        "USD",
+        "EUR",
+        "INR"
+      ]
+    },
+    "rate_millionths": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
