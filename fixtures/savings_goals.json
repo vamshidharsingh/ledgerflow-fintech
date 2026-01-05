@@ -1,0 +1,9 @@
+[
+  {
+    "id": "goal-1",
+    "customer_id": "customer-1",
+    "name": "Emergency reserve",
+    "target_cents": 500000,
+    "saved_cents": 100000
+  }
+]
