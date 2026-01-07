@@ -1,0 +1,21 @@
+{
+  "name": "deposits",
+  "description": "Simulated cash-in events, never real payment settlement.",
+  "fields": {
+    "account_id": {
+      "type": "string",
+      "ref": "accounts"
+    },
+    "amount_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "reference": {
+      "type": "string"
+    }
+  },
+  "writable": false,
+  "unique": [
+    "reference"
+  ]
+}
